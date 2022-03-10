@@ -11,7 +11,8 @@ WSL, Docker Desktop
 wsl -d docker-desktop
 sysctl -w vm.max_map_count=262144
 ```
-2. Ensuite, lancer Docker Desktop
+2. Lancer Docker Desktop
+3. A la racine du projet, exécuter `docker-compose up`
 
 (a priori, la conf sysctl est à refaire à chaque reboot de windows)
 
